@@ -10,7 +10,8 @@ class BasicCache(BaseCaching):
     and is a caching system with two methods put and get"""
 
     def put(self, key, item):
-        """assigns to the dictionary self.cache_data the item value for the key key"""
+        """assigns to the dictionary self.cache_data
+        the item value for the key key"""
         if key is None or item is None:
             return
         self.cache_data[key] = item
